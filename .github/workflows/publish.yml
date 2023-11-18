@@ -1,0 +1,10 @@
+name: Publish to NPM & GitHub registry
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish:
+    uses: kakushindev/workflows/.github/workflows/pnpm-publish.yml@main
+    secrets: inherit
