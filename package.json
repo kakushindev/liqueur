@@ -1,6 +1,6 @@
 {
     "name": "liqueur",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A rich-featured and flexible command framework for building WhatsApp bot with baileys inspired by @sapphire framework.",
     "keywords": [
         "framework",
