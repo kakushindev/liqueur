@@ -1,6 +1,6 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable @typescript-eslint/no-unnecessary-condition */
-import { Piece, PieceContext, PieceOptions } from "@sapphire/pieces";
+import { LoaderPieceContext, Piece, PieceOptions } from "@sapphire/pieces";
 import { Result } from "@sapphire/result";
 import { EventEmitter } from "node:events";
 
@@ -10,7 +10,7 @@ export abstract class Listener extends Piece {
     public once: boolean;
     private _listener: ((...args: any[]) => void) | null;
 
-    public constructor(context: PieceContext, options: ListenerOptions = {}) {
+    public constructor(context: LoaderPieceContext<"listeners">, options: ListenerOptions = {}) {
         super(context, options);
 
         this.emitter =

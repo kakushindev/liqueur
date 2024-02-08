@@ -1,6 +1,5 @@
-/* eslint-disable @typescript-eslint/no-type-alias */
 /* eslint-disable class-methods-use-this */
-import { Piece, PieceContext, PieceOptions } from "@sapphire/pieces";
+import { LoaderPieceContext, Piece, PieceOptions } from "@sapphire/pieces";
 import { Awaitable } from "@sapphire/utilities";
 import { Command } from "./Command.js";
 import { Result } from "@sapphire/result";
@@ -12,7 +11,7 @@ import { proto } from "@whiskeysockets/baileys";
 export class Precondition extends Piece {
     public readonly position: number | null;
 
-    public constructor(context: PieceContext, options: PreconditionOptions) {
+    public constructor(context: LoaderPieceContext<"preconditions">, options: PreconditionOptions) {
         super(context, options);
         this.position = options.position ?? null;
     }

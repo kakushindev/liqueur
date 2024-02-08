@@ -1,4 +1,4 @@
-import { AliasPiece, AliasPieceOptions, PieceContext } from "@sapphire/pieces";
+import { AliasPiece, AliasPieceOptions, LoaderPieceContext } from "@sapphire/pieces";
 import { FlagStrategyOptions, FlagUnorderedStrategy } from "../lib/FlagUnorderedStrategy.js";
 import { ArgumentStream, IUnorderedStrategy, Lexer } from "@sapphire/lexure";
 import { PreconditionContainerArray, PreconditionEntryResolvable } from "../lib/preconditions/PreconditionContainerArray.js";
@@ -23,7 +23,7 @@ export class Command extends AliasPiece<CommandOptions> {
         return this.fullCategory.length > 1 ? this.fullCategory[this.fullCategory.length - 1] : null;
     }
 
-    public constructor(context: PieceContext, options: CommandOptions) {
+    public constructor(context: LoaderPieceContext<"commands">, options: CommandOptions) {
         super(context, options);
 
         this.lexer = new Lexer({
