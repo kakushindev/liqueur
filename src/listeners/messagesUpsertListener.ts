@@ -20,7 +20,7 @@ export class MessagesUpsert extends Listener {
             messageData.message?.groupInviteMessage?.caption ??
             messageData.message?.liveLocationMessage?.caption;
 
-        if (messageData.key.fromMe) return;
+        if (messageData.key.fromMe && !this.container.client.options.allowSelfCommand) return;
         const prefix = await this.container.client.options.fetchPrefix(messageData);
         if (findMessage?.startsWith(prefix)) {
             this.container.client.emit(

@@ -63,4 +63,5 @@ export interface FrameworkClientOptions {
     makeWASocket: () => Promise<ReturnType<typeof makeWASocket>>;
     logger?: Logger;
     loggerOptions?: LoggerOptions;
+    allowSelfCommand?: boolean;
 }
