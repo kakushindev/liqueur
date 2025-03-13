@@ -16,16 +16,16 @@ dependencies:
     version: 0.1.0
   '@sapphire/lexure':
     specifier: ^1.1.7
-    version: 1.1.7
+    version: 1.1.10
   '@sapphire/pieces':
     specifier: ^4.2.2
-    version: 4.2.2
+    version: 4.3.1
   '@sapphire/result':
     specifier: ^2.6.6
-    version: 2.6.6
+    version: 2.7.2
   '@sapphire/utilities':
     specifier: ^3.15.3
-    version: 3.15.3
+    version: 3.18.2
   '@whiskeysockets/baileys':
     specifier: ^6.6.0
     version: 6.6.0(qrcode-terminal@0.12.0)
@@ -48,7 +48,7 @@ dependencies:
 devDependencies:
   '@hazmi35/eslint-config':
     specifier: ^11.0.0
-    version: 11.0.0(@eslint/js@8.56.0)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)(typescript@5.1.6)
+    version: 11.0.0(@eslint/js@9.22.0)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)(typescript@5.1.6)
   '@types/node':
     specifier: ^18.19.14
     version: 18.19.14
@@ -125,6 +125,11 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+  /@eslint/js@9.22.0:
+    resolution: {integrity: sha512-vLFajx9o8d1/oL2ZkpMYbkLv8nDB6yaIwFNt7nI4+I80U/z03SxmfOMsLbvWr3p7C+Wnoh//aOu2pQW8cS0HCQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    dev: true
+
   /@hapi/boom@10.0.1:
     resolution: {integrity: sha512-ERcCZaEjdH3OgSJlyjVk8pHIFeus91CjKP3v+MpgBNp5IvGzP2l/bRiD78nqYcKPaZdbKkK5vDBVPd2ohHBlsA==}
     dependencies:
@@ -145,7 +150,7 @@ packages:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
     dev: false
 
-  /@hazmi35/eslint-config@11.0.0(@eslint/js@8.56.0)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)(typescript@5.1.6):
+  /@hazmi35/eslint-config@11.0.0(@eslint/js@9.22.0)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)(typescript@5.1.6):
     resolution: {integrity: sha512-haZj5Y227wWPupoPZmo28LupYeCfGhT4bmcw0a4xV3T1BpxjlgkAgMBCj5r//GNt/SeGV0O7nWvJfWCM4Ffuxw==}
     peerDependencies:
       '@eslint/js': '>=8.42.0'
@@ -161,7 +166,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@eslint/js': 8.56.0
+      '@eslint/js': 9.22.0
       '@typescript-eslint/eslint-plugin': 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 6.21.0(eslint@8.56.0)(typescript@5.1.6)
       eslint: 8.56.0
@@ -204,7 +209,7 @@ packages:
     resolution: {integrity: sha512-g4vgL9BFjzp/0gwDSXpnmyZS4kG4TvhZe0GDSpWzhc/UM5J3VSc6LDXZIbQpWRjdHEJO4NE+xGMCQde9Am+yaQ==}
     dependencies:
       '@sapphire/pieces': 3.10.0
-      '@sapphire/utilities': 3.15.3
+      '@sapphire/utilities': 3.18.2
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
@@ -278,11 +283,11 @@ packages:
     resolution: {integrity: sha512-Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==}
     dev: false
 
-  /@sapphire/lexure@1.1.7:
-    resolution: {integrity: sha512-6PqU2/V+w1k4DHbZ8erIH+iaT/kAmLfReiWNUURt1akfrPTWqlVYWfuxkHXF0JMPk53r4NIkZoitiWwGUtPF+Q==}
+  /@sapphire/lexure@1.1.10:
+    resolution: {integrity: sha512-odE4FD0SkCxkwEOhzAOqEnCJ/oJlPUuyFEw2KJacIuGiwY86WRTPIHLg1rt6XmfSYLxGXiqRf74req43+wRV9g==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
-      '@sapphire/result': 2.6.6
+      '@sapphire/result': 2.7.2
     dev: false
 
   /@sapphire/pieces@3.10.0:
@@ -290,26 +295,26 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/collection': 1.5.3
-      '@sapphire/utilities': 3.15.3
+      '@sapphire/utilities': 3.18.2
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/pieces@4.2.2:
-    resolution: {integrity: sha512-DvAC+zTgm5o41D6iX+jBjMp+rRmoHPKNYnav6v6vQLTxBJb+iFMmup9ZREiuXdrh1ejrmVRZojnnI59xQgezwQ==}
+  /@sapphire/pieces@4.3.1:
+    resolution: {integrity: sha512-t42o6i8gPQ3QISIsMl463hj057yfyHsaSrs4FssdiGLmnvL9cuLGLTsjGEPn904wHUhPzS8W5aAPr788RK2/jQ==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/collection': 1.5.3
-      '@sapphire/utilities': 3.15.3
-      tslib: 2.6.2
+      '@sapphire/utilities': 3.18.2
+      tslib: 2.8.1
     dev: false
 
-  /@sapphire/result@2.6.6:
-    resolution: {integrity: sha512-QCjj7X/QlY0QUCeAaZQmnrsMH/b2BMQYee3F1Y5iF17JagUQqO3KZlG7vfXWQU3SRAJX5OgZZynBjixUH+nNGg==}
+  /@sapphire/result@2.7.2:
+    resolution: {integrity: sha512-DJbCGmvi8UZAu/hh85auQL8bODFlpcS3cWjRJZ5/cXTLekmGvs/CrRxrIzwbA6+poyYojo5rK4qu8trmjfneog==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/utilities@3.15.3:
-    resolution: {integrity: sha512-K5dFGOB5XvblXFN+Av+Tch/dVBAifmxtZ9/2mFo8VqzbiaFJIRUuoPAoNsp8pWYaU423yV8bfD8WsCSNd9w1YQ==}
+  /@sapphire/utilities@3.18.2:
+    resolution: {integrity: sha512-QGLdC9+pT74Zd7aaObqn0EUfq40c4dyTL65pFnkM6WO1QYN7Yg/s4CdH+CXmx0Zcu6wcfCWILSftXPMosJHP5A==}
     engines: {node: '>=v14.0.0'}
     dev: false
 
@@ -2041,6 +2046,10 @@ packages:
 
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: false
+
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
     dev: false
 
   /type-check@0.4.0:
