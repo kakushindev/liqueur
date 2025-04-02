@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@discordjs/collection':
-    specifier: ^1.5.3
-    version: 1.5.3
+    specifier: ^2.1.1
+    version: 2.1.1
   '@hapi/boom':
     specifier: ^10.0.1
     version: 10.0.1
@@ -82,6 +82,11 @@ packages:
   /@discordjs/collection@1.5.3:
     resolution: {integrity: sha512-SVb428OMd3WO1paV3rm6tSjM4wC+Kecaa1EUGX7vc6/fddvw/6lg90z4QtCqm21zvVe92vMMDt9+DkIvjXImQQ==}
     engines: {node: '>=16.11.0'}
+    dev: false
+
+  /@discordjs/collection@2.1.1:
+    resolution: {integrity: sha512-LiSusze9Tc7qF03sLCujF5iZp7K+vRNEDBZ86FT9aQAv3vxMLihUvKvpsCWiQ2DJq1tVckopKm1rxomgNUc9hg==}
+    engines: {node: '>=18'}
     dev: false
 
   /@eshaz/web-worker@1.2.2:
