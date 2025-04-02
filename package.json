@@ -47,7 +47,7 @@
         "ignorePatterns": "dist/*"
     },
     "dependencies": {
-        "@discordjs/collection": "^1.5.3",
+        "@discordjs/collection": "^2.1.1",
         "@hapi/boom": "^10.0.1",
         "@nezuchan/decorators": "^0.1.0",
         "@sapphire/lexure": "^1.1.7",
