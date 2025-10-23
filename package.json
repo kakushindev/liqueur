@@ -63,7 +63,7 @@
     },
     "devDependencies": {
         "@hazmi35/eslint-config": "^11.0.0",
-        "@types/node": "^18.19.14",
+        "@types/node": "^22.18.12",
         "@typescript-eslint/eslint-plugin": "^6.21.0",
         "@typescript-eslint/parser": "^6.21.0",
         "eslint": "^8.56.0",
@@ -71,7 +71,7 @@
         "typescript": "^5.1.6"
     },
     "engines": {
-        "node": ">=18.12.1",
+        "node": ">=22.21.0",
         "npm": ">=8.0.0"
     },
     "packageManager": "pnpm@8.15.1"
