@@ -10,5 +10,5 @@ on:
 
 jobs:
   test:
-    uses: kakushindev/workflows/.github/workflows/lint-and-compile-test.yml@main
+    uses: kakushindev/workflows/.github/workflows/lint-and-compile-test.yml@35450bf8de2399ffb1cef65c411dd1b9445eb453 # main
     secrets: inherit
