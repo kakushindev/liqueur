@@ -49,30 +49,30 @@
     "dependencies": {
         "@discordjs/collection": "^1.5.3",
         "@hapi/boom": "^10.0.1",
-        "@nezuchan/decorators": "^0.1.0",
-        "@sapphire/lexure": "^1.1.7",
-        "@sapphire/pieces": "^4.2.2",
-        "@sapphire/result": "^2.6.6",
-        "@sapphire/utilities": "^3.15.3",
+        "@nezuchan/decorators": "^0.3.0",
+        "@sapphire/lexure": "^1.1.12",
+        "@sapphire/pieces": "^4.4.1",
+        "@sapphire/result": "^2.8.0",
+        "@sapphire/utilities": "^3.18.2",
         "@whiskeysockets/baileys": "^6.6.0",
-        "pino": "^8.18.0",
-        "pino-loki": "^2.2.1",
+        "pino": "^8.21.0",
+        "pino-loki": "^2.6.0",
         "pino-pretty": "^10.3.1",
         "qrcode-terminal": "^0.12.0",
-        "tslib": "^2.6.2"
+        "tslib": "^2.8.1"
     },
     "devDependencies": {
         "@hazmi35/eslint-config": "^11.0.0",
-        "@types/node": "^18.19.14",
+        "@types/node": "^18.19.130",
         "@typescript-eslint/eslint-plugin": "^6.21.0",
         "@typescript-eslint/parser": "^6.21.0",
-        "eslint": "^8.56.0",
-        "rimraf": "^5.0.5",
-        "typescript": "^5.1.6"
+        "eslint": "^8.57.1",
+        "rimraf": "^5.0.10",
+        "typescript": "^5.9.3"
     },
     "engines": {
-        "node": ">=18.12.1",
-        "npm": ">=8.0.0"
+        "node": ">=18.20.8",
+        "npm": ">=8.19.4"
     },
-    "packageManager": "pnpm@8.15.1"
+    "packageManager": "pnpm@8.15.9"
 }
