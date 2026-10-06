@@ -62,7 +62,7 @@
         "tslib": "^2.6.2"
     },
     "devDependencies": {
-        "@hazmi35/eslint-config": "^11.0.0",
+        "@hazmi35/eslint-config": "^15.2.2",
         "@types/node": "^18.19.14",
         "@typescript-eslint/eslint-plugin": "^6.21.0",
         "@typescript-eslint/parser": "^6.21.0",
